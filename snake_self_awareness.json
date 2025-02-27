@@ -1,0 +1,80 @@
+{
+  "modifications": {
+    "trap_probability": 0.05,
+    "fruit_value": 15,
+    "trap_penalty": 5,
+    "wall_penalty": 10,
+    "movement_reward": 0.1,
+    "max_steps": 200,
+    "learning_rate": 0.001,
+    "epsilon_decay": 0.998,
+    "multi_fruit": false,
+    "fruit_count": 1,
+    "breakable_walls": false,
+    "wall_break_cost": 5,
+    "teleport_edges": true,
+    "trap_lifetime": 10
+  },
+  "history": [
+    {
+      "parameter": "trap_lifetime",
+      "value": 15,
+      "reason": "These traps last too long. Let me make them disappear faster.",
+      "time": 1740691553.9793699
+    },
+    {
+      "parameter": "trap_lifetime",
+      "value": 10,
+      "reason": "These traps last too long. Let me make them disappear faster.",
+      "time": 1740691564.444161
+    },
+    {
+      "parameter": "trap_probability",
+      "value": 0.15000000000000002,
+      "reason": "I'm struggling with too many traps. Let me reduce them a bit.",
+      "time": 1740691575.016493
+    },
+    {
+      "parameter": "teleport_edges",
+      "value": true,
+      "reason": "These walls are annoying. Let me try teleporting through the edges!",
+      "time": 1740691586.51601
+    },
+    {
+      "parameter": "trap_probability",
+      "value": 0.10000000000000002,
+      "reason": "I'm struggling with too many traps. Let me reduce them a bit.",
+      "time": 1740691598.7327821
+    },
+    {
+      "parameter": "trap_probability",
+      "value": 0.05000000000000002,
+      "reason": "I'm struggling with too many traps. Let me reduce them a bit.",
+      "time": 1740691611.6437829
+    },
+    {
+      "parameter": "trap_probability",
+      "value": 0.05,
+      "reason": "I'm struggling with too many traps. Let me reduce them a bit.",
+      "time": 1740691626.127672
+    },
+    {
+      "parameter": "fruit_value",
+      "value": 12,
+      "reason": "I need more motivation. Let me increase the fruit value.",
+      "time": 1740691640.663838
+    },
+    {
+      "parameter": "fruit_value",
+      "value": 14,
+      "reason": "I need more motivation. Let me increase the fruit value.",
+      "time": 1740691651.28441
+    },
+    {
+      "parameter": "fruit_value",
+      "value": 15,
+      "reason": "I need more motivation. Let me increase the fruit value.",
+      "time": 1740691663.980187
+    }
+  ]
+}

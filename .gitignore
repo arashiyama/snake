@@ -1,0 +1,10 @@
+.aider*
+venv/
+# Ignore saved models
+saved_models/*.h5
+
+# Keep the directory structure
+!saved_models/.gitkeep
+
+# Don't ignore self-awareness data
+!snake_self_awareness.json
