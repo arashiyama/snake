@@ -1,5 +1,62 @@
 {
-  "performance_history": [],
+  "performance_history": [
+    {
+      "timestamp": "2025-02-28 12:17:24",
+      "episode": 0,
+      "score": 0,
+      "steps": 491,
+      "avg_reward": -5.89999999999994,
+      "parameters": {
+        "trap_probability": 0.1,
+        "reward_fruit": 1.0,
+        "reward_trap": -1.0,
+        "reward_collision": -1.0,
+        "reward_step": -0.01
+      }
+    },
+    {
+      "timestamp": "2025-02-28 12:30:20",
+      "episode": 0,
+      "score": 0,
+      "steps": 58,
+      "avg_reward": -1.5700000000000003,
+      "parameters": {
+        "trap_probability": 0.1,
+        "reward_fruit": 1.0,
+        "reward_trap": -1.0,
+        "reward_collision": -1.0,
+        "reward_step": -0.01
+      }
+    },
+    {
+      "timestamp": "2025-02-28 12:38:14",
+      "episode": 0,
+      "score": 0,
+      "steps": 13,
+      "avg_reward": -1.1199999999999999,
+      "parameters": {
+        "trap_probability": 0.1,
+        "reward_fruit": 1.0,
+        "reward_trap": -1.0,
+        "reward_collision": -1.0,
+        "reward_step": -0.01
+      }
+    },
+    {
+      "timestamp": "2025-02-28 12:38:15",
+      "episode": 1,
+      "score": 0,
+      "steps": 10,
+      "avg_reward": -1.09,
+      "parameters": {
+        "trap_probability": 0.1,
+        "reward_fruit": 1.0,
+        "reward_trap": -1.0,
+        "reward_collision": -1.0,
+        "reward_step": -0.01
+      }
+    }
+  ],
   "parameter_changes": [],
   "current_parameters": {
     "trap_probability": 0.1,
